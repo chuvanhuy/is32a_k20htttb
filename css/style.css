@@ -1,0 +1,41 @@
+body {
+	background-color: orange;
+}
+
+h3 {
+	font-weight: bold;
+	color: blue;
+}
+
+a {
+	text-decoration-line: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	color: white;
+}
+
+a:visited {
+	color: black;
+}
+
+.motanoidung {
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+}
+
+#dieuhuong {
+	text-transform: uppercase;
+}
