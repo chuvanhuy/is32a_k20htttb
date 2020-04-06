@@ -72,5 +72,43 @@
 			<p class="motanoidung">7 trường thành viên Đại học Quốc gia TP HCM cho gần 70.000 sinh viên nghỉ học hết tháng 3 để phòng chống dịch Covid-19, sáng 6/3.</p>
 		</div>
 	</div>
+	<div style="clear: both;">
+		<button type="button" onclick="window.alert('Xin chào!')">Check</button>
+	</div>
+
+	<script type="text/javascript">
+		var a;
+		var b = "Covid-19";
+
+		// window.alert(b);
+
+		a = "Việt Nam hiện có 233 ca nhiếm "+b;
+		document.write(a);
+
+		// Khai báo 1 mảng nguoiyeu gồm 5 cô
+		var nguoiyeu = ["Mơ", "Mận", "Đào", "Chanh", "Xả"];
+
+		// In tên cô người yêu đầu tiên
+		document.write(nguoiyeu[0]);
+
+		// In tên cô người yêu cuối cùng
+		document.write(nguoiyeu[4]);
+
+		// In hết tên các cô người yêu ra màn hình
+		for (var i = 0; i <= nguoiyeu.length-1; i++) {
+			document.write(nguoiyeu[i]);
+			// in_ten_nguoi_yeu(nguoiyeu[i]);
+		}
+
+		function in_ten_nguoi_yeu(i) {
+			window.alert(i);
+		}
+
+		// Khai báo một đối tượng oto
+		var oto = {ten_xe:"Toyota Vios", doi_xe:2020, trong_luong:1000, mau_sac:"Vàng Cát"};
+
+		// Truy cập đến thuộc tính Tên xe & in nó ra màn hình.
+		document.write(oto.ten_xe);
+	</script>
 </body>
 </html>
