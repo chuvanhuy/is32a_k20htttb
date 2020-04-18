@@ -12,6 +12,14 @@
 	</style>
 </head>
 <body>
+	<?php
+		echo "XIN CHÀO! ĐÂY LÀ DÒNG MÃ LỆNH PHP ĐẦU TIÊN CỦA TÔI";
+
+		echo "<br>"."Hôm là ngày: ".date("d/m/Y");
+
+		echo "<br>"."Bây giờ là: ".date("h:i:sa");
+	;?>
+
 	<h1 style="color: red;">Chào mừng các bạn ghé thăm Website K20HTTTB</h1>
 
 	<p style="text-align: right;" id="dieuhuong"><a href=".\index.html">Trang chủ</a> | <a href=".\gioi_thieu.html">Giới thiệu</a> | <a href=".\tin_tuc.html">Tin tức</a> | <a href=".\san_pham.html">Sản phẩm</a> | <a href=".\lien_he.html">Liên hệ</a></p>
