@@ -40,9 +40,9 @@
 	</script>
 </head>
 <body>
-	<p style="text-align: right;" id="dieuhuong"><a href=".\index.html">Trang chủ</a> | <a href=".\gioi_thieu.html">Giới thiệu</a> | <a href=".\tin_tuc.html">Tin tức</a> | <a href=".\san_pham.html">Sản phẩm</a> | <a href=".\lien_he.html">Liên hệ</a></p>
+	<p style="text-align: right;" id="dieuhuong"><a href=".\index.php">Trang chủ</a> | <a href=".\gioi_thieu.php">Giới thiệu</a> | <a href=".\tin_tuc.php">Tin tức</a> | <a href=".\san_pham.php">Sản phẩm</a> | <a href=".\lien_he.php">Liên hệ</a></p>
 
-	<form method="POST" action="gui_lien_he.html" onsubmit="return kiem_tra_du_lieu()">
+	<form method="POST" action="gui_lien_he.php" onsubmit="return kiem_tra_du_lieu()">
 		<p>Họ và tên:</p>
 		<input type="text" name="txtHoTen" id="txtHoTen" value="">
 		<p>Email:</p>

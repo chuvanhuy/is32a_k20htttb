@@ -136,7 +136,7 @@
 
 	<h1 style="color: red;">Chào mừng các bạn ghé thăm Website K20HTTTB</h1>
 
-	<p style="text-align: right;" id="dieuhuong"><a href=".\index.html">Trang chủ</a> | <a href=".\gioi_thieu.html">Giới thiệu</a> | <a href=".\tin_tuc.html">Tin tức</a> | <a href=".\san_pham.html">Sản phẩm</a> | <a href=".\lien_he.html">Liên hệ</a></p>
+	<p style="text-align: right;" id="dieuhuong"><a href=".\index.php">Trang chủ</a> | <a href=".\gioi_thieu.php">Giới thiệu</a> | <a href=".\tin_tuc.php">Tin tức</a> | <a href=".\san_pham.php">Sản phẩm</a> | <a href=".\lien_he.php">Liên hệ</a></p>
 	
 	<h3>Sinh viên Đại học Quốc gia TP HCM nghỉ hết tháng 3</h3>
 	<p>7 trường thành viên Đại học Quốc gia TP HCM cho gần 70.000 sinh viên nghỉ học hết tháng 3 để phòng chống dịch Covid-19, sáng 6/3.</p>

@@ -1,4 +1,23 @@
 <?php 
+	session_start();
+	if(!$_SESSION['email']) {
+		echo 
+		"
+			<script type='text/javascript'>
+				window.alert('Bạn không có quyền truy cập!');
+			</script>
+		";
+
+		// Chuyển người dùng vào trang quản trị tin tức
+		echo 
+		"
+			<script type='text/javascript'>
+				window.location.href = './dang_nhap.php'
+			</script>
+		";
+	}
+;?>
+<?php 
 	// 1. Chuỗi kết nối đến CSDL
 	$ket_noi = mysqli_connect("localhost", "root", "", "k20htttb_db");
 

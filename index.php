@@ -8,7 +8,7 @@
 <body>
 	<h1 style="color: red;">Chào mừng các bạn ghé thăm Website K20HTTTB</h1>
 
-	<p style="text-align: right;" id="dieuhuong"><a href=".\index.html">Trang chủ</a> | <a href=".\gioi_thieu.html">Giới thiệu</a> | <a href=".\tin_tuc.html">Tin tức</a> | <a href=".\san_pham.html">Sản phẩm</a> | <a href=".\lien_he.html">Liên hệ</a></p>
+	<p style="text-align: right;" id="dieuhuong"><a href=".\index.php">Trang chủ</a> | <a href=".\gioi_thieu.php">Giới thiệu</a> | <a href=".\tin_tuc.php">Tin tức</a> | <a href=".\san_pham.php">Sản phẩm</a> | <a href=".\lien_he.php">Liên hệ</a></p>
 
 	<div>
 		<div style="border: 1px solid; width: 450px; height: 300px; float: left; padding: 10px; margin: 10px;">
